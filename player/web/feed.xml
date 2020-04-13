@@ -5,8 +5,9 @@
     <title>Creative Engineering</title>
     <googleplay:author>Rody Davis</googleplay:author>
     <author>Rody Davis</author>
+    <itunes:category text="Technology" />
     <description>Exploring Flutter, VR, AR, Cross-Platform Projects</description>
-    <googleplay:image href="https://rodydavis.github.io/creative_engineering/img/icon.jpg"/>
+    <googleplay:image href="https://rodydavis.github.io/creative_engineering/img/icon.png"/>
     <language>en-us</language>
     <link>https://rodydavis.github.io/creative_engineering/feed.xml</link>
     <item>
@@ -17,6 +18,8 @@
                  type="audio/mpeg" length="34216300"/>
       <itunes:duration>54:08</itunes:duration>
       <guid isPermaLink="false">cepod01</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <googleplay:explicit>no</googleplay:explicit>
     </item>
   </channel>
 </rss>
