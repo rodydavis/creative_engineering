@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Creative Engineering</title>
+    <googleplay:author>Rody Davis</googleplay:author>
+    <author>Rody Davis</author>
+    <description>Exploring Flutter, VR, AR, Cross-Platform Projects</description>
+    <googleplay:image href="https://rodydavis.github.io/creative_engineering/img/icon.jpg"/>
+    <language>en-us</language>
+    <link>https://rodydavis.github.io/creative_engineering/feed.xml</link>
+    <item>
+      <title>Flutter Desktop/Web and VR</title>
+      <description>Looking into the future of Flutter development, our experiments with VR, our thoughts on Code Generation and passion about new tech.</description>
+      <pubDate>Mon, 13 Mar 2020 13:00:00 GMT</pubDate>
+      <enclosure url="https://rodydavis.github.io/creative_engineering/audio/01-create-eng.mp3"
+                 type="audio/mpeg" length="34216300"/>
+      <itunes:duration>54:08</itunes:duration>
+      <guid isPermaLink="false">cepod01</guid>
+    </item>
+  </channel>
+</rss>
