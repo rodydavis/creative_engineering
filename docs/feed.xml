@@ -7,8 +7,9 @@
     <author>Rody Davis</author>
     <itunes:category text="Technology" />
     <description>Exploring Flutter, VR, AR, Cross-Platform Projects</description>
-    <googleplay:image href="https://rodydavis.github.io/creative_engineering/img/icon.png"/>
+    <googleplay:image href="https://rodydavis.github.io/creative_engineering/img/icon.jpg"/>
     <language>en-us</language>
+    <itunes:explicit>no</itunes:explicit>
     <link>https://rodydavis.github.io/creative_engineering/feed.xml</link>
     <item>
       <title>Flutter Desktop/Web and VR</title>
@@ -19,7 +20,6 @@
       <itunes:duration>54:08</itunes:duration>
       <guid isPermaLink="false">cepod01</guid>
       <itunes:explicit>no</itunes:explicit>
-      <googleplay:explicit>no</googleplay:explicit>
     </item>
   </channel>
 </rss>
