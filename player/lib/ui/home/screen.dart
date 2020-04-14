@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:podcast_search/podcast_search.dart';
 import 'package:provider/provider.dart';
 import 'package:timeago/timeago.dart' as timeago;
@@ -91,7 +90,7 @@ class HomeScreen extends StatelessWidget {
                     height: 50,
                     child: podcast == null
                         ? Center(child: CircularProgressIndicator())
-                        : Image.network(podcast.image),
+                        : RepaintBoundary(child: Image.network(podcast.image)),
                   ),
                   Expanded(
                     child: ListTile(
@@ -137,7 +136,7 @@ class HomeScreen extends StatelessWidget {
             itemBuilder: (context, index) {
               final _episode = podcast.episodes[index];
               return ListTile(
-                leading: Image.network(podcast.image),
+                leading: RepaintBoundary(child: Image.network(podcast.image)),
                 title: Text(_episode.title),
                 subtitle: Text(timeago.format(_episode.publicationDate)),
                 trailing: IconButton(

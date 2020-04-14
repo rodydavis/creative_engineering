@@ -29,15 +29,6 @@ class EpisodeDetails extends StatelessWidget {
                 title: Text('Author'),
                 subtitle: Text('${episode.author}'),
               ),
-              // Expanded(
-              //   child: Container(
-              //     color: Colors.white,
-              //     child: EasyWebView(
-              //       src: episode.description,
-              //       isHtml: true,
-              //     ),
-              //   ),
-              // ),
               Markdown(
                 data: episode.description,
                 shrinkWrap: true,
