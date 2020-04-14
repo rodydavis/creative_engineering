@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_audio_player/flutter_web_audio_player.dart';
-import 'package:player/src/constants.dart';
-import 'package:player/src/controllers/podcast.dart';
 import 'package:podcast_search/podcast_search.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import '../../src/constants.dart';
+import '../../src/controllers/podcast.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -18,7 +19,7 @@ class HomeScreen extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.rss_feed),
             onPressed: () {
-              launch(kPodcastFeed);
+              launch('feed:$kPodcastFeed');
             },
           ),
           IconButton(
