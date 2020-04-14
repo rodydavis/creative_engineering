@@ -1,15 +1,60 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_audio_player/flutter_web_audio_player.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:podcast_search/podcast_search.dart';
 import 'package:provider/provider.dart';
+import 'package:timeago/timeago.dart' as timeago;
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../src/constants.dart';
 import '../../src/controllers/podcast.dart';
 
+const kTabletBreakpiint = 720.0;
+const kSideMenuWidth = 350.0;
+
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final _controller = Provider.of<PodcastController>(context, listen: false);
+
+    return LayoutBuilder(
+      builder: (_, dimens) {
+        if (dimens.maxWidth >= kTabletBreakpiint) {
+          return Row(
+            children: <Widget>[
+              Container(
+                width: kSideMenuWidth,
+                child: buildEpisodes(context, (val) {
+                  _controller.selectEpisode(val);
+                }),
+              ),
+              VerticalDivider(width: 0),
+              Expanded(
+                child: ValueListenableBuilder<Episode>(
+                  valueListenable: _controller.selection,
+                  builder: (context, episode, child) {
+                    if (episode == null) {
+                      return Scaffold(
+                        appBar: AppBar(),
+                        body: Center(child: Text('No Episode Selected')),
+                      );
+                    }
+                    return EpisodeDetails(episode: episode);
+                  },
+                ),
+              ),
+            ],
+          );
+        }
+        return buildEpisodes(context, (val) {
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (context) => EpisodeDetails(episode: val),
+          ));
+        });
+      },
+    );
+  }
+
+  Widget buildEpisodes(BuildContext context, ValueChanged<Episode> onSelect) {
     final _controller = Provider.of<PodcastController>(context, listen: false);
     return Scaffold(
       appBar: AppBar(
@@ -30,41 +75,120 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: ValueListenableBuilder<Podcast>(
-        valueListenable: _controller.feed,
-        builder: (context, podcast, child) => podcast == null
-            ? Center(child: CircularProgressIndicator())
-            : Column(
-                children: <Widget>[
+      bottomNavigationBar: BottomAppBar(
+        child: ValueListenableBuilder<Episode>(
+          valueListenable: _controller.playingEpisode,
+          builder: (context, episode, child) => ValueListenableBuilder<bool>(
+            valueListenable: _controller.isPlaying,
+            builder: (context, playing, child) =>
+                ValueListenableBuilder<Podcast>(
+              valueListenable: _controller.feed,
+              builder: (context, podcast, child) => Row(
+                children: [
+                  SizedBox(
+                    width: 50,
+                    height: 50,
+                    child: podcast == null
+                        ? Center(child: CircularProgressIndicator())
+                        : Image.network(podcast.image),
+                  ),
                   Expanded(
-                    child: ListView.separated(
-                      separatorBuilder: (context, index) => Divider(height: 0),
-                      itemCount: podcast.episodes.length,
-                      itemBuilder: (context, index) {
-                        final _episode = podcast.episodes[index];
-                        return ListTile(
-                          leading: Image.network(podcast.image),
-                          title: Text(_episode.title),
-                          subtitle: Text(_episode.description),
-                          onTap: () => _controller.selectEpisode(_episode),
-                        );
-                      },
+                    child: ListTile(
+                      dense: true,
+                      title: Text(
+                        episode == null ? 'No Podcast Selected' : episode.title,
+                        maxLines: 1,
+                      ),
                     ),
                   ),
-                  ValueListenableBuilder<Episode>(
-                    valueListenable: _controller.selection,
-                    builder: (context, episode, child) {
-                      if (episode != null) {
-                        return Container(
-                          height: 50,
-                          child: WebAudioPlayer(src: episode.contentUrl),
-                        );
-                      }
-                      return Container();
-                    },
+                  IconButton(
+                    tooltip: 'Episode Details',
+                    icon: Icon(Icons.info_outline),
+                    onPressed: episode == null ? null : () => onSelect(episode),
+                  ),
+                  IconButton(
+                    icon: Icon(playing ? Icons.pause : Icons.play_arrow),
+                    onPressed: episode == null
+                        ? null
+                        : () {
+                            if (playing) {
+                              _controller.pause();
+                              return;
+                            }
+                            _controller.resume();
+                          },
                   ),
                 ],
               ),
+            ),
+          ),
+        ),
+      ),
+      body: ValueListenableBuilder<Podcast>(
+        valueListenable: _controller.feed,
+        builder: (context, podcast, child) {
+          if (podcast == null) {
+            return Center(child: CircularProgressIndicator());
+          }
+          return ListView.separated(
+            separatorBuilder: (context, index) => Divider(height: 0),
+            itemCount: podcast.episodes.length,
+            itemBuilder: (context, index) {
+              final _episode = podcast.episodes[index];
+              return ListTile(
+                leading: Image.network(podcast.image),
+                title: Text(_episode.title),
+                subtitle: Text(timeago.format(_episode.publicationDate)),
+                trailing: IconButton(
+                  tooltip: 'Episode Details',
+                  icon: Icon(Icons.info_outline),
+                  onPressed: () => onSelect(_episode),
+                ),
+                onTap: () {
+                  _controller.play(_episode);
+                },
+              );
+            },
+          );
+        },
+      ),
+    );
+  }
+}
+
+class EpisodeDetails extends StatelessWidget {
+  final Episode episode;
+
+  const EpisodeDetails({Key key, @required this.episode}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: false,
+        title: Text('Episode Details'),
+      ),
+      body: Scrollbar(
+        child: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              ListTile(
+                leading: Icon(Icons.title),
+                title: Text('Title'),
+                subtitle: Text('${episode.title}'),
+              ),
+              ListTile(
+                leading: Icon(Icons.person_outline),
+                title: Text('Author'),
+                subtitle: Text('${episode.author}'),
+              ),
+              Markdown(
+                data: episode.description,
+                shrinkWrap: true,
+                onTapLink: (val) => launch(val),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

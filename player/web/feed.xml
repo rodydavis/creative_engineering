@@ -32,8 +32,59 @@
       <author>Rody Davis</author>
       <itunes:author>Rody Davis</itunes:author>
       <title>Flutter Desktop/Web and VR</title>
-      <description>Looking into the future of Flutter development, our experiments with VR, our thoughts on Code Generation and passion about new tech.</description>
-      <pubDate>Mon, 13 Mar 2020 13:00:00 GMT</pubDate>
+      <description>
+Looking into the future of Flutter development, our experiments with VR, our thoughts on Code Generation and passion about new tech.
+
+02:47 Book Seach link
+03.10 Blog Norbert
+
+04:44 Dart and Fluter 
+
+10:40 Flutter Desktop as Prototyping
+13:24 Firedart
+
+14:15 Projects
+15:55 widget maker
+
+18:45 Flutter Editor by Rody
+
+19:35 Code generation
+20:05 moore
+
+20:30 Rust + FFI
+
+25:00 Code generation problems
+
+26:00 Freezed
+
+28:45 check in generated files
+
+30:00 VR
+30:00 Oculus quest
+32:45 Plank experience
+
+35:50 Developing for VR
+38:15 WebXR
+
+38:55 Flutter Octopus
+
+45.45 New packages
+46:05 scrcpy
+
+48:00 Freezed, StateNotifier and FlutterStateNotifier
+48:53 Ampstor
+
+49:53 Flutter Editor
+
+52:30 Follow Rody Davis
+52:40 Norbert
+
+Norbert Kozsir - @norbertkozsir
+Rody Davis - @rodydavis
+
+Our podcast player: https://rodydavis.github.io/creative_engineering/
+      </description>
+      <pubDate>Mon, 13 Apr 2020 13:00:00 GMT</pubDate>
       <enclosure url="https://rodydavis.github.io/creative_engineering/audio/01-create-eng.mp3" type="audio/mpeg" length="34216300" />
       <itunes:duration>54:08</itunes:duration>
       <guid isPermaLink="false">cepod01</guid>
