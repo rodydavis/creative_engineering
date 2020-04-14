@@ -7,6 +7,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../src/constants.dart';
 import '../../src/controllers/podcast.dart';
+import 'details.dart';
 
 const kTabletBreakpiint = 720.0;
 const kSideMenuWidth = 350.0;
@@ -151,44 +152,6 @@ class HomeScreen extends StatelessWidget {
             },
           );
         },
-      ),
-    );
-  }
-}
-
-class EpisodeDetails extends StatelessWidget {
-  final Episode episode;
-
-  const EpisodeDetails({Key key, @required this.episode}) : super(key: key);
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        centerTitle: false,
-        title: Text('Episode Details'),
-      ),
-      body: Scrollbar(
-        child: SingleChildScrollView(
-          child: Column(
-            children: <Widget>[
-              ListTile(
-                leading: Icon(Icons.title),
-                title: Text('Title'),
-                subtitle: Text('${episode.title}'),
-              ),
-              ListTile(
-                leading: Icon(Icons.person_outline),
-                title: Text('Author'),
-                subtitle: Text('${episode.author}'),
-              ),
-              Markdown(
-                data: episode.description,
-                shrinkWrap: true,
-                onTapLink: (val) => launch(val),
-              ),
-            ],
-          ),
-        ),
       ),
     );
   }

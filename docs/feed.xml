@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+<rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Creative Engineering</title>
     <googleplay:author>Rody Davis</googleplay:author>
@@ -35,55 +35,30 @@
       <description>
 Looking into the future of Flutter development, our experiments with VR, our thoughts on Code Generation and passion about new tech.
 
-02:47 Book Seach link
-03.10 Blog Norbert
-
-04:44 Dart and Fluter 
-
-10:40 Flutter Desktop as Prototyping
-13:24 Firedart
-
-14:15 Projects
-15:55 widget maker
-
-18:45 Flutter Editor by Rody
-
-19:35 Code generation
-20:05 moore
-
-20:30 Rust + FFI
-
-25:00 Code generation problems
-
-26:00 Freezed
-
-28:45 check in generated files
-
-30:00 VR
-30:00 Oculus quest
-32:45 Plank experience
-
-35:50 Developing for VR
-38:15 WebXR
-
-38:55 Flutter Octopus
-
-45.45 New packages
-46:05 scrcpy
-
-48:00 Freezed, StateNotifier and FlutterStateNotifier
-48:53 Ampstor
-
-49:53 Flutter Editor
-
-52:30 Follow Rody Davis
-52:40 Norbert
+Full Show Notes: https://rodydavis.github.io/creative_engineering/show-notes/01.html
 
 Norbert Kozsir - @norbertkozsir
+
+https://twitter.com/norbertkozsir
+
+https://github.com/norbert515
+
+
 Rody Davis - @rodydavis
 
-Our podcast player: https://rodydavis.github.io/creative_engineering/
-      </description>
+https://twitter.com/rodydavis
+
+https://github.com/rodydavis
+
+https://youtube.com/rodydavis
+
+https://rodydavis.com
+
+Our podcast player: 
+
+https://rodydavis.github.io/creative_engineering/
+
+</description>
       <pubDate>Mon, 13 Apr 2020 13:00:00 GMT</pubDate>
       <enclosure url="https://rodydavis.github.io/creative_engineering/audio/01-create-eng.mp3" type="audio/mpeg" length="34216300" />
       <itunes:duration>54:08</itunes:duration>
