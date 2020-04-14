@@ -43,7 +43,8 @@ class EpisodeDetails extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: GestureDetector(
                         onTap: () => launch(kSpotifyLink),
-                        child: Image.asset('badges/spotify.png'),
+                        child: Image.network(
+                            'https://rodydavis.github.io/creative_engineering/img/spotify.png'),
                       ),
                     ),
                   ],
