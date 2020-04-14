@@ -30,6 +30,7 @@
     <itunes:image href="https://rodydavis.github.io/creative_engineering/img/icon.jpg" />
     <item>
       <author>Rody Davis</author>
+      <itunes:author>Rody Davis</itunes:author>
       <title>Flutter Desktop/Web and VR</title>
       <description>Looking into the future of Flutter development, our experiments with VR, our thoughts on Code Generation and passion about new tech.</description>
       <pubDate>Mon, 13 Mar 2020 13:00:00 GMT</pubDate>
