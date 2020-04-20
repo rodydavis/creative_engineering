@@ -19,7 +19,7 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "main.dart.js": "f4d123bf98d726895d193bd848f40bce",
 "manifest.json": "0d2ef5bf43d0a5d981e8400f48458541",
-"feed.xml": "3466f7d072609be3ce2aef6dd8520df2"
+"feed.xml": "876f33a9f93b83fcc16a2b517861f1e0"
 };
 
 self.addEventListener('activate', function (event) {
