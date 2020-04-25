@@ -2,12 +2,12 @@
 <rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Creative Engineering</title>
-    <googleplay:author>Rody Davis</googleplay:author>
+    <googleplay:author>Rody Davis, Norbert Kozsir</googleplay:author>
     <rawvoice:rating>TV-G</rawvoice:rating>
     <rawvoice:location>San Francisco, California</rawvoice:location>
     <rawvoice:frequency>Weekly</rawvoice:frequency>
-    <author>Rody Davis</author>
-    <itunes:author>Rody Davis</itunes:author>
+    <author>Rody Davis, Norbert Kozsir</author>
+    <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
     <itunes:email>rody.davis.jr@gmail.com</itunes:email>
     <itunes:category text="Technology" />
     <image>
@@ -29,8 +29,8 @@
     <link>https://rodydavis.github.io/creative_engineering/feed.xml</link>
     <itunes:image href="https://rodydavis.github.io/creative_engineering/img/icon.jpg" />
     <item>
-      <author>Rody Davis</author>
-      <itunes:author>Rody Davis</itunes:author>
+      <author>Rody Davis, Norbert Kozsir</author>
+      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
       <title>Flutter Desktop/Web and VR</title>
       <pubDate>Mon, 13 Apr 2020 13:00:00 GMT</pubDate>
       <enclosure url="https://rodydavis.github.io/creative_engineering/audio/01-create-eng.mp3" type="audio/mpeg" length="34216300" />
@@ -66,8 +66,8 @@
         </description>
     </item>
     <item>
-      <author>Rody Davis</author>
-      <itunes:author>Rody Davis</itunes:author>
+      <author>Rody Davis, Norbert Kozsir</author>
+      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
       <title>Flutter Adaptive UI and Web Assembly</title>
       <pubDate>Mon, 20 Apr 2020 13:00:00 GMT</pubDate>
       <enclosure url="https://rodydavis.github.io/creative_engineering/audio/02-create-eng.mp3" type="audio/mpeg" length="49200000" />
