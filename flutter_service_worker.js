@@ -1,11 +1,11 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "audio/02-create-eng.mp3": "ef76fb1bfdce24494f406f5a14425f6d",
+  "audio/03-create-eng.mp3": "1cbec909f180b796fddd52c1faeb6bd7",
+"audio/02-create-eng.mp3": "ef76fb1bfdce24494f406f5a14425f6d",
 "audio/01-create-eng.mp3": "83d1e1f303e4b8f4cee1cadd9ad75555",
 "index.html": "2fbc18b41a51294f8b2344da56a2ddf7",
 "/": "2fbc18b41a51294f8b2344da56a2ddf7",
-"show-notes/01.html": "c1ba3c59b563ba9a0799b0a30777f48c",
 "img/spotify.png": "0a5ef7a942cb1d9a64169f57ba1a05c3",
 "img/icon.jpg": "a81790178d3885f9e5d89b990f6a6c9f",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -15,11 +15,11 @@ const RESOURCES = {
 "assets/FontManifest.json": "f7161631e25fbd47f3180eae84053a51",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/AssetManifest.json": "0d266ffbe90dae02458487c9d33b7373",
-"assets/LICENSE": "fb5228dfc375215dc41cd2ed982e9737",
+"assets/LICENSE": "d2cfd9ed186c0c40540a965cc6c04ff3",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "f4d123bf98d726895d193bd848f40bce",
+"main.dart.js": "96c0200fa87c2edde4a2db657d7c6e72",
 "manifest.json": "0d2ef5bf43d0a5d981e8400f48458541",
-"feed.xml": "650f867600b68fb825c49caa2706fb87"
+"feed.xml": "9c2dcfa49fe528b751b8c510688a0d5c"
 };
 
 self.addEventListener('activate', function (event) {
