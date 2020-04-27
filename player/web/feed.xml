@@ -2,12 +2,12 @@
 <rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Creative Engineering</title>
-    <googleplay:author>Rody Davis</googleplay:author>
+    <googleplay:author>Rody Davis, Norbert Kozsir</googleplay:author>
     <rawvoice:rating>TV-G</rawvoice:rating>
     <rawvoice:location>San Francisco, California</rawvoice:location>
     <rawvoice:frequency>Weekly</rawvoice:frequency>
-    <author>Rody Davis</author>
-    <itunes:author>Rody Davis</itunes:author>
+    <author>Rody Davis, Norbert Kozsir</author>
+    <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
     <itunes:email>rody.davis.jr@gmail.com</itunes:email>
     <itunes:category text="Technology" />
     <image>
@@ -29,8 +29,8 @@
     <link>https://rodydavis.github.io/creative_engineering/feed.xml</link>
     <itunes:image href="https://rodydavis.github.io/creative_engineering/img/icon.jpg" />
     <item>
-      <author>Rody Davis</author>
-      <itunes:author>Rody Davis</itunes:author>
+      <author>Rody Davis, Norbert Kozsir</author>
+      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
       <title>Flutter Desktop/Web and VR</title>
       <pubDate>Mon, 13 Apr 2020 13:00:00 GMT</pubDate>
       <enclosure url="https://rodydavis.github.io/creative_engineering/audio/01-create-eng.mp3" type="audio/mpeg" length="34216300" />
@@ -38,72 +38,134 @@
       <guid isPermaLink="false">cepod01</guid>
       <itunes:explicit>no</itunes:explicit>
       <description>
-        Looking into the future of Flutter development, our experiments with VR, our thoughts on Code Generation and passion about new tech.
-        
-        Full Show Notes: https://rodydavis.github.io/creative_engineering/show-notes/01.html
-        
-        Norbert Kozsir - @norbertkozsir
-        
-        https://twitter.com/norbertkozsir
-        
-        https://github.com/norbert515
-        
-        
-        Rody Davis - @rodydavis
-        
-        https://twitter.com/rodydavis
-        
-        https://github.com/rodydavis
-        
-        https://youtube.com/rodydavis
-        
-        https://rodydavis.com
-        
-        Our podcast player: 
-        
-        https://rodydavis.github.io/creative_engineering/
-        
+Looking into the future of Flutter development, our experiments with VR, our thoughts on Code Generation and passion about new tech.
+
+Norbert Kozsir - @norbertkozsir
+
+https://twitter.com/norbertkozsir
+
+https://github.com/norbert515
+
+
+Rody Davis - @rodydavis
+
+https://twitter.com/rodydavis
+
+https://github.com/rodydavis
+
+https://youtube.com/rodydavis
+
+https://rodydavis.com
+
+Our podcast player: 
+
+https://rodydavis.github.io/creative_engineering/
         </description>
     </item>
     <item>
-      <author>Rody Davis</author>
-      <itunes:author>Rody Davis</itunes:author>
+      <author>Rody Davis, Norbert Kozsir</author>
+      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
       <title>Flutter Adaptive UI and Web Assembly</title>
       <pubDate>Mon, 20 Apr 2020 13:00:00 GMT</pubDate>
       <enclosure url="https://rodydavis.github.io/creative_engineering/audio/02-create-eng.mp3" type="audio/mpeg" length="49200000" />
       <itunes:duration>41:05</itunes:duration>
       <guid isPermaLink="false">cepod02</guid>
       <itunes:explicit>no</itunes:explicit>
+      <description>     
+BigScreen: https://www.oculus.com/experiences/quest/2497738113633933/
+Github free for teams: https://github.blog/2020-04-14-github-is-now-free-for-teams/
+Codepen for Flutter: https://codepen.io/flutter
+Flutter internals talk: https://www.youtube.com/watch?v=PnWxW21vDak
+The Rust book: https://doc.rust-lang.org/book/
+
+
+Norbert Kozsir - @norbertkozsir
+
+https://twitter.com/norbertkozsir
+
+https://github.com/norbert515
+
+
+Rody Davis - @rodydavis
+
+https://twitter.com/rodydavis
+
+https://github.com/rodydavis
+
+https://youtube.com/rodydavis
+
+https://rodydavis.com
+
+Our podcast player: 
+
+https://rodydavis.github.io/creative_engineering/
+        
+        </description>
+    </item>
+    <item>
+      <author>Rody Davis, Norbert Kozsir</author>
+      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
+      <title>Flutter Testing and AppStore Rejection</title>
+      <pubDate>Mon, 27 Apr 2020 13:00:00 GMT</pubDate>
+      <enclosure url="https://rodydavis.github.io/creative_engineering/audio/03-create-eng.mp3" type="audio/mpeg" length="49200000" />
+      <itunes:duration>51:20</itunes:duration>
+      <guid isPermaLink="false">cepod03</guid>
+      <itunes:explicit>no</itunes:explicit>
       <description>
-        
-        
-        BigScreen: https://www.oculus.com/experiences/quest/2497738113633933/
-        Github free for teams: https://github.blog/2020-04-14-github-is-now-free-for-teams/
-        Codepen for Flutter: https://codepen.io/flutter
-        Flutter internals talk: https://www.youtube.com/watch?v=PnWxW21vDak
-        The Rust book: https://doc.rust-lang.org/book/
-        
-        
-        Norbert Kozsir - @norbertkozsir
-        
-        https://twitter.com/norbertkozsir
-        
-        https://github.com/norbert515
-        
-        
-        Rody Davis - @rodydavis
-        
-        https://twitter.com/rodydavis
-        
-        https://github.com/rodydavis
-        
-        https://youtube.com/rodydavis
-        
-        https://rodydavis.com
-        
-        Our podcast player: 
-        
-        https://rodydavis.github.io/creative_engineering/
+Follow Up
+- Rody experiences with apple approval
+- Rejections
+- Recourse
+- Options
+- 2 million people using flutter
+
+Testing
+- State management and testing trade offs
+- UI logic and replaying capabilities
+- Logging
+- Mocking
+- Smoke Tests
+- MVVM
+- Firebase
+- Filesystem
+- Folder Structure / Layers
+- Packages that can be tested
+- Code Coverage
+  "flutter test --coverage"
+
+Logging
+- Sentry
+- Crashlytics
+- Flutter Testing
+- Best Practices
+- Flutter Driver
+- Unit Tests
+- Flutter Octopus
+- Flutter Interact
+- Flutter VR Testing
+- Xcode testing, Android testing
+- Flutter i18n Localization
+
+Norbert Kozsir - @norbertkozsir
+
+https://twitter.com/norbertkozsir
+
+https://github.com/norbert515
+
+
+Rody Davis - @rodydavis
+
+https://twitter.com/rodydavis
+
+https://github.com/rodydavis
+
+https://youtube.com/rodydavis
+
+https://rodydavis.com
+
+Our podcast player: 
+
+https://rodydavis.github.io/creative_engineering/
         
         </description>
     </item>
