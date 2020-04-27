@@ -133,6 +133,13 @@ Testing
 - Code Coverage
   "flutter test --coverage"
 
+  https://codemagic.io/start/
+  https://sentry.io/welcome/      
+  https://pub.dev/packages/mock_cloud_firestore
+  To visually run widget tests: flutter run test/widget_test.dart
+  Suggested finders: Just tap anywhere when running a widget test using flutter run      
+  https://pub.dev/packages/device_preview  
+        
 Logging
 - Sentry
 - Crashlytics
