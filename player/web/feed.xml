@@ -176,5 +176,38 @@ https://rodydavis.github.io/creative_engineering/
         
         </description>
     </item>
+    <item>
+      <author>Rody Davis, Norbert Kozsir</author>
+      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
+      <title>Building the Flutter Widget Maker and Storyboard</title>
+      <pubDate>Mon, 11 May 2020 13:00:00 GMT</pubDate>
+      <enclosure url="https://rodydavis.github.io/creative_engineering/audio/04-create-eng.mp3" type="audio/mpeg" length="49200000" />
+      <itunes:duration>57:39</itunes:duration>
+      <guid isPermaLink="false">cepod04</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+Norbert Kozsir - @norbertkozsir
+
+https://twitter.com/norbertkozsir
+
+https://github.com/norbert515
+
+
+Rody Davis - @rodydavis
+
+https://twitter.com/rodydavis
+
+https://github.com/rodydavis
+
+https://youtube.com/rodydavis
+
+https://rodydavis.com
+
+Our podcast player: 
+
+https://rodydavis.github.io/creative_engineering/
+        
+        </description>
+    </item>
   </channel>
 </rss>
