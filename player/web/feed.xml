@@ -209,5 +209,43 @@ https://rodydavis.github.io/creative_engineering/
         
         </description>
     </item>
+    <item>
+      <author>Rody Davis, Norbert Kozsir</author>
+      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
+      <title>Pro Putt by Top Golf feat. Jason Clevering</title>
+      <pubDate>Mon, 01 June 2020 13:00:00 GMT</pubDate>
+      <enclosure url="https://rodydavis.github.io/creative_engineering/audio/05-create-eng.mp3" type="audio/mpeg" length="49200000" />
+      <itunes:duration>01:05:08</itunes:duration>
+      <guid isPermaLink="false">cepod05</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+Pro Putt by Top Golf
+
+https://www.proputt.com/
+
+
+Norbert Kozsir - @norbertkozsir
+
+https://twitter.com/norbertkozsir
+
+https://github.com/norbert515
+
+
+Rody Davis - @rodydavis
+
+https://twitter.com/rodydavis
+
+https://github.com/rodydavis
+
+https://youtube.com/rodydavis
+
+https://rodydavis.com
+
+Our podcast player: 
+
+https://rodydavis.github.io/creative_engineering/
+        
+        </description>
+    </item>
   </channel>
 </rss>
