@@ -247,5 +247,45 @@ https://rodydavis.github.io/creative_engineering/
         
         </description>
     </item>
+    <item>
+      <author>Rody Davis, Norbert Kozsir</author>
+      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
+      <title>Flutter State Management and Dart Nullability feat. Simon Lightfoot</title>
+      <pubDate>Mon, 22 June 2020 13:00:00 GMT</pubDate>
+      <enclosure url="https://rodydavis.github.io/creative_engineering/audio/06-create-eng.mp3" type="audio/mpeg" length="49200000" />
+      <itunes:duration>01:17:45</itunes:duration>
+      <guid isPermaLink="false">cepod06</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+Simon Lightfoot
+
+https://twitter.com/devangelslondon
+
+https://devangels.london/
+
+
+Norbert Kozsir - @norbertkozsir
+
+https://twitter.com/norbertkozsir
+
+https://github.com/norbert515
+
+
+Rody Davis - @rodydavis
+
+https://twitter.com/rodydavis
+
+https://github.com/rodydavis
+
+https://youtube.com/rodydavis
+
+https://rodydavis.com
+
+Our podcast player: 
+
+https://rodydavis.github.io/creative_engineering/
+        
+        </description>
+    </item>
   </channel>
 </rss>
