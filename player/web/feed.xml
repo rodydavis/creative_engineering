@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Creative Engineering</title>
@@ -21,7 +21,11 @@
     </itunes:owner>
     <itunes:keywords>flutter,dart,github,vr,ar,web</itunes:keywords>
     <copyright>Rody Davis Productions 2020</copyright>
-    <description>Exploring Flutter, VR, AR, Cross-Platform Projects</description>
+    <description>
+      Exploring Flutter, VR, AR, Cross-Platform Projects
+      Twitter: @CreativeEngShow
+      @norbertkozsir and @rodydavis
+    </description>
     <googleplay:image href="https://rodydavis.github.io/creative_engineering/img/icon.jpg" />
     <language>en-us</language>
     <itunes:explicit>no</itunes:explicit>
@@ -60,7 +64,11 @@ https://rodydavis.com
 Our podcast player: 
 
 https://rodydavis.github.io/creative_engineering/
-        </description>
+Follow on Twitter:
+
+https://twitter.com/CreativeEngShow
+
+</description>
     </item>
     <item>
       <author>Rody Davis, Norbert Kozsir</author>
@@ -100,7 +108,11 @@ Our podcast player:
 
 https://rodydavis.github.io/creative_engineering/
         
-        </description>
+Follow on Twitter:
+
+https://twitter.com/CreativeEngShow
+
+</description>
     </item>
     <item>
       <author>Rody Davis, Norbert Kozsir</author>
@@ -174,7 +186,11 @@ Our podcast player:
 
 https://rodydavis.github.io/creative_engineering/
         
-        </description>
+Follow on Twitter:
+
+https://twitter.com/CreativeEngShow
+
+</description>
     </item>
     <item>
       <author>Rody Davis, Norbert Kozsir</author>
@@ -207,7 +223,11 @@ Our podcast player:
 
 https://rodydavis.github.io/creative_engineering/
         
-        </description>
+Follow on Twitter:
+
+https://twitter.com/CreativeEngShow
+
+</description>
     </item>
     <item>
       <author>Rody Davis, Norbert Kozsir</author>
@@ -244,8 +264,12 @@ https://rodydavis.com
 Our podcast player: 
 
 https://rodydavis.github.io/creative_engineering/
-        
-        </description>
+
+Follow on Twitter:
+
+https://twitter.com/CreativeEngShow
+
+</description>
     </item>
     <item>
       <author>Rody Davis, Norbert Kozsir</author>
@@ -285,7 +309,11 @@ Our podcast player:
 
 https://rodydavis.github.io/creative_engineering/
         
-        </description>
+Follow on Twitter:
+
+https://twitter.com/CreativeEngShow
+
+</description>
     </item>
   </channel>
 </rss>
