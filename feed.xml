@@ -315,5 +315,49 @@ https://twitter.com/CreativeEngShow
 
 </description>
     </item>
+    <item>
+      <author>=Norbert Kozsir</author>
+      <itunes:author>=Norbert Kozsir</itunes:author>
+      <title>Talking about Riverpod with Remi Rousselet</title>
+      <pubDate>Mon, 19 Oct 2020 13:00:00 GMT</pubDate>
+      <enclosure url="https://rodydavis.github.io/creative_engineering/audio/07-create-eng.mp3" type="audio/mpeg" length="34216300" />
+      <itunes:duration>58:08</itunes:duration>
+      <guid isPermaLink="false">cepod07</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+Diving into the details about Riverpod!
+
+Remi Rousselet
+
+https://twitter.com/remi_rousselet
+
+https://github.com/rrousselGit
+
+Norbert Kozsir - @norbertkozsir
+
+https://twitter.com/norbertkozsir
+
+https://github.com/norbert515
+
+
+Rody Davis - @rodydavis
+
+https://twitter.com/rodydavis
+
+https://github.com/rodydavis
+
+https://youtube.com/rodydavis
+
+https://rodydavis.com
+
+Our podcast player: 
+
+https://rodydavis.github.io/creative_engineering/
+Follow on Twitter:
+
+https://twitter.com/CreativeEngShow
+
+</description>
+    </item>
   </channel>
 </rss>
